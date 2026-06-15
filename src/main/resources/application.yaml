@@ -2,9 +2,6 @@ spring:
   application:
     name: secure-system
   datasource:
-    url: jdbc:postgresql://localhost:5432/vsc
-    username: admin
-    password: password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
