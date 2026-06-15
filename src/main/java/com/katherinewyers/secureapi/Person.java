@@ -1,7 +1,6 @@
-package com.katherinewyers.vsc;
+package com.katherinewyers.secureapi;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

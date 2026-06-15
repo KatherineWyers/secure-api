@@ -1,4 +1,4 @@
-### VSC Secure API ###
+### Secure API ###
 
 Java Springboot 4
 

@@ -1,9 +1,6 @@
-package com.katherinewyers.vsc;
+package com.katherinewyers.secureapi;
 
 import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class PersonService {

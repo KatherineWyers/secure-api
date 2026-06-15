@@ -1,4 +1,4 @@
-package com.katherinewyers.vsc;
+package com.katherinewyers.secureapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

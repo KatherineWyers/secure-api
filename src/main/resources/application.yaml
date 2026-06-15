@@ -1,12 +1,11 @@
 spring:
   application:
-    name: vsc
+    name: secureapi
   data:
     rest:
       base-path: /api/v1
   datasource:
-    url: jdbc:postgresql://localhost:5432/vsc_db
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/secureapi_db
   jpa:
     hibernate:
       ddl-auto: update
