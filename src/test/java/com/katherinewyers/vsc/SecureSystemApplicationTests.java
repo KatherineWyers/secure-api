@@ -1,4 +1,4 @@
-package com.katherinewyers.vsc.secure_system;
+package com.katherinewyers.vsc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

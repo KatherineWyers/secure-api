@@ -1,7 +1,11 @@
 spring:
   application:
-    name: secure-system
+    name: vsc
+  data:
+    rest:
+      base-path: /api/v1
   datasource:
+    url: jdbc:postgresql://localhost:5432/vsc_db
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

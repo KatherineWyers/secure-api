@@ -1,13 +1,13 @@
-package com.katherinewyers.vsc.secure_system;
+package com.katherinewyers.vsc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SecureSystemApplication {
+public class VscApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecureSystemApplication.class, args);
+		SpringApplication.run(VscApplication.class, args);
 	}
 
 }
