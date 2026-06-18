@@ -1,4 +1,4 @@
-package com.katherinewyers.secureapi;
+package com.katherinewyers.secureapi.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -16,4 +16,10 @@ public class Person {
     private Long id;
     private String name;
     private boolean member;
+
+    public Person(Long id, String name, boolean member) {
+        this.id = id;
+        this.name = name;
+        this.member = member;
+    }
 }
