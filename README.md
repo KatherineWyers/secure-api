@@ -1,4 +1,8 @@
-### Secure API ###
+### Secure API with JWT ###
 
-Java Springboot 4
+A basic CRUD application accessed through an API and secured with a JWT and database credentials
+
+* Stack: Java Spring Boot 4
+* Security: Authentication using JWT Token
+* Database: PostgreSQL
 
