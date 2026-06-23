@@ -1,4 +1,4 @@
-package com.katherinewyers.secureapi.model;
+package com.katherinewyers.icdd.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

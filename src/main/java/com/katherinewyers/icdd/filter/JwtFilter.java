@@ -1,7 +1,7 @@
-package com.katherinewyers.secureapi.filter;
+package com.katherinewyers.icdd.filter;
 
-import com.katherinewyers.secureapi.service.JwtService;
-import com.katherinewyers.secureapi.service.UserDetailsServiceImpl;
+import com.katherinewyers.icdd.service.JwtService;
+import com.katherinewyers.icdd.service.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

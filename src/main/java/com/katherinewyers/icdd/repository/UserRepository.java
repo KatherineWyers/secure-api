@@ -1,6 +1,6 @@
-package com.katherinewyers.secureapi.repository;
+package com.katherinewyers.icdd.repository;
 
-import com.katherinewyers.secureapi.model.User;
+import com.katherinewyers.icdd.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.katherinewyers.secureapi.model;
+package com.katherinewyers.icdd.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,17 +9,15 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
-public class Person {
+public class Schema {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    private boolean member;
+    private String title;
 
-    public Person(Long id, String name, boolean member) {
+    public Schema(Long id, String title) {
         this.id = id;
-        this.name = name;
-        this.member = member;
+        this.title = title;
     }
 }

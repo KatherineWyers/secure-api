@@ -1,10 +1,10 @@
 services:
   postgres:
-    image: postgres:16
-    container_name: secureapi
+    image: postgres:17
+    container_name: icdd_container
     restart: unless-stopped
     environment:
-      POSTGRES_DB: secureapi_db
+      POSTGRES_DB: icdd_db
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password
     ports:

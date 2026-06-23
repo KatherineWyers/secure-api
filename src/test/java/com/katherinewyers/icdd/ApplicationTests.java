@@ -1,10 +1,10 @@
-package com.katherinewyers.secureapi;
+package com.katherinewyers.icdd;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SecureApiApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

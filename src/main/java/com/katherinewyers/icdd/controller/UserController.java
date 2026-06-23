@@ -1,9 +1,8 @@
-package com.katherinewyers.secureapi.controller;
+package com.katherinewyers.icdd.controller;
 
-import com.katherinewyers.secureapi.model.User;
-import com.katherinewyers.secureapi.service.UserService;
+import com.katherinewyers.icdd.model.User;
+import com.katherinewyers.icdd.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

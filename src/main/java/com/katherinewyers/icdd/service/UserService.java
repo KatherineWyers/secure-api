@@ -1,8 +1,7 @@
-package com.katherinewyers.secureapi.service;
+package com.katherinewyers.icdd.service;
 
-import com.katherinewyers.secureapi.model.User;
-import com.katherinewyers.secureapi.repository.UserRepository;
-import io.jsonwebtoken.Jwt;
+import com.katherinewyers.icdd.model.User;
+import com.katherinewyers.icdd.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

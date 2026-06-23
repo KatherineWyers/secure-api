@@ -1,6 +1,6 @@
-package com.katherinewyers.secureapi.config;
+package com.katherinewyers.icdd.config;
 
-import com.katherinewyers.secureapi.filter.JwtFilter;
+import com.katherinewyers.icdd.filter.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

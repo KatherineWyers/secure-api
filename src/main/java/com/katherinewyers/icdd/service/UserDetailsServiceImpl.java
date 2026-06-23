@@ -1,8 +1,8 @@
-package com.katherinewyers.secureapi.service;
+package com.katherinewyers.icdd.service;
 
-import com.katherinewyers.secureapi.model.User;
-import com.katherinewyers.secureapi.model.UserDetailsImpl;
-import com.katherinewyers.secureapi.repository.UserRepository;
+import com.katherinewyers.icdd.model.User;
+import com.katherinewyers.icdd.model.UserDetailsImpl;
+import com.katherinewyers.icdd.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

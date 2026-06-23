@@ -1,9 +1,7 @@
-package com.katherinewyers.secureapi.service;
+package com.katherinewyers.icdd.service;
 
-import com.katherinewyers.secureapi.model.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
-import java.security.Key;
 
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
